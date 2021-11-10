@@ -1,0 +1,10 @@
+python@3.10
+pipenv
+go
+ansible
+docker
+kubernetes-cli
+helm
+helmfile
+stern
+terraform
