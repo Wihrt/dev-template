@@ -14,6 +14,7 @@ while read package
 do
     brew install $package
 done < packages.txt
+brew cleanup --prune=all
 
 # Install VSCode (it's broken on brew)
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg

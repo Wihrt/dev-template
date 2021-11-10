@@ -4,6 +4,7 @@ go
 ansible
 docker
 kubernetes-cli
+k3d
 helm
 helmfile
 stern
