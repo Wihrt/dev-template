@@ -1,5 +1,7 @@
 #!/bin/env bash
 
+sudo apt-get install build-essential procps curl file git -y
+
 # Install brew
 export NONINTERACTIVE=1
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
